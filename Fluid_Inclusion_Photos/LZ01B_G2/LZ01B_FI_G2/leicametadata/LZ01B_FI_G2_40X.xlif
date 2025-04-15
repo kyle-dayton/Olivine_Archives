@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LMSDataContainerHeader Version="2" ApplicationDescription="LMSIOManager" ApplicationVersion="1,6,3909,3">
+  <Element Name="LZ01B_FI_G2_40X" Visibility="1" CopyOption="1" UniqueID="eb966fac-0109-11ef-a970-e89eb41b51a4">
+    <Data>
+      <Image TextDescription="">
+        <Attachment Name="PreviewMarker" Application="LAS AF" IsPreviewImage="0" />
+        <ImageDescription>
+          <Channels>
+            <ChannelDescription DataType="0" ChannelTag="3" Resolution="8" NameOfMeasuredQuantity="" Min="0.000000e+00" Max="2.550000e+02" Unit="" LUTName="Blue" IsLUTInverted="0" BytesInc="0" BitInc="0"></ChannelDescription>
+            <ChannelDescription DataType="0" ChannelTag="2" Resolution="8" NameOfMeasuredQuantity="" Min="0.000000e+00" Max="2.550000e+02" Unit="" LUTName="Green" IsLUTInverted="0" BytesInc="1" BitInc="0"></ChannelDescription>
+            <ChannelDescription DataType="0" ChannelTag="1" Resolution="8" NameOfMeasuredQuantity="" Min="0.000000e+00" Max="2.550000e+02" Unit="" LUTName="Red" IsLUTInverted="0" BytesInc="2" BitInc="0"></ChannelDescription>
+          </Channels>
+          <Dimensions>
+            <DimensionDescription DimID="1" NumberOfElements="1824" Origin="0.000000e+00" Length="3.284604e-04" Unit="m" BitInc="0" BytesInc="3"></DimensionDescription>
+            <DimensionDescription DimID="2" NumberOfElements="1216" Origin="0.000000e+00" Length="2.189136e-04" Unit="m" BitInc="0" BytesInc="5472"></DimensionDescription>
+          </Dimensions>
+        </ImageDescription>
+        <TimeStampList NumberOfTimeStamps="1">1da9516ae0f5330 </TimeStampList>
+        <Attachment Name="ChannelAttachment" Application="LAS AF" />
+        <Attachment Name="ViewerScaling" Application="LAS AF">
+          <ChannelScalingInfo BackgroundLutName="" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+          <ChannelScalingInfo BackgroundLutName="" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+          <ChannelScalingInfo BackgroundLutName="" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+        </Attachment>
+        <Attachment Name="ImageXMLDocument" Application="LAS AF">
+          <RootNode />
+        </Attachment>
+        <Attachment Name="HardwareSetting" Application="LAS AF" Software="LAS X 5.0.3.24880" HardwareServerVersion="Build 24880" SystemType="11" SystemTypeName="AF 6000" DataSourceType="1" DataSourceTypeName="Camera">
+          <ATLCameraSettingDefinition ChannelToXmlMode="4">
+            <SEE_SEQUENTIAL_BLOCK />
+          </ATLCameraSettingDefinition>
+          <LDM_Block_Widefield_Sequential SequentialMode="2" BlockName="Job 1" ActiveSettingIndex="0">
+            <LDM_Block_Sequential_Master>
+              <ATLCameraSettingDefinition ChannelToXmlMode="3" VersionNumber="7" SpimMirrorMode="1" MirrorX="1" MirrorY="1" TheoCamSensorPixelSizeX="0.00000240234375" TheoCamSensorPixelSizeY="0.00000240234375" Gamma="0.45" Brightness="216" WhiteValue="255" BlackValue="0" GainStringValue="0" IsGainUsedAsStringList="0" CanDoEMGain="0" CanDoColorSat="1" EMGainValue="1" OffsetValue="0" SaturationNormalizationFactor="0.3333333" ColorSat="24" AutoBright="0" AutoExposure="0" AutoContrastGamma="0" BinningText="2.2MP (1824x1216), 3:2, Bin3x3" LiveBinningText="5.0MP (2736x1824), 3:2, Bin2x2" ScanMode="xy" ZUseMode="0" ZUseModeName="nothing" ZPosition="0" IsSuperZ="0" Begin="0" End="0" Sections="1" CycleCount="1" CycleTime="0" UseMaxIterationsForT="0" CompleteTime="0.116276999579906" IsTimeMinimizeEnabled="0" LastTCalcMode="3" ValidBeginStack="0" ValidEndStack="0" StackCalculationMode="2" StackCalculationModeName="System optimized step size" ZStackDirectionMode="1" ZStackDirectionModeName="Unidirectional" IsLinkedShadingEnabled="0" IsImageAlignmentEnabled="0" IsDistortionCorrectionEnabled="0" Magnification="40" CanDoTotalVideoMag="1" TotalVideoMag="40" AutofocusChannel="0" IsAutofocusOnStart="0" AutofocusRedoEveryNTimePoints="0" ObjectiveName="N PLAN    40x/0.65 DRY " ObjectiveNumber="11556084" ObjectivePos="3" MicroscopeModel="DM2700P" IsInverseMicroscopeModel="0" ShutterMode="1" ShutterModeSoftware="2" CanDoIndustryShuttering="0" Immersion="DRY" NumericalAperture="0.65" RefractionIndex="1" MountingMediumRefractionIndex="1" CoverslipThickness="0.00017" TubeOpticName="1" TubeOpticPos="0" TubeOpticPortMagPos="0" CanDoChangeSpeedAndPort="0" CanDoColorCapture="1" ColorCaptureMode="0" CanDoMicroScanning="0" CanDoDualLightMode="0" CanDoLiveBinning="1" IsLiveBinningActive="1" CanDoControlCooler="0" CanDoControlTemperature="0" CanDoFanControl="0" CanDoHotSpotCorrection="0" CanDoBrightnessCorrection="0" SCMOSReadoutMode="0" CanDoEnhancedAcquisitionMode="1" HDR_DigitalFusion_Mode="0" CurrentLightSheetFilterPosition="0" BinningValuePrecise="3" BinningXValuePrecise="3" BinningYValuePrecise="3" ZStackUseMode="0" NbStepsForEDOF="10" MaxNbStepsForStartUp="20" CalcEDoFfromZStack="0" CalcEDoFfromZStackForStartUp="0" EnhancedAcquisitionHDREnable="0" EnhancedAcquisitionHDRAutomatic="0" EnhancedAcquisitionHDRContrast="2" EnhancedAcquisitionHDRBrightness="71" IsSequencerAdvancedUseEnabled="0" PortCameraPercentage="100" UserManagementUserName="UserManagementFeatureInactive" IsMultiCam="0">
+                <Autofocus-config VersionNumber="1" Precision="2" FocusRange="0" ZUseMode="0" ZUseModeName="nothing" AFAnalyseType="1002" AFAnalyseTypeName="ExternDLLbased" WorkflowTimelapse="2" WorkflowTimelapseName="AllTime" WorkflowTimelapseIterator="1" WorkflowXY="2" WorkflowXYName="AllPos" WorkflowXYIterator="1" UseFixSliceNumber="0" AFSubsystem="0" AFSubsystemName="BaseAF" AFCOffset="-2" AFCAutonomousOffset="-2" AutoFocusMode="2" AutoFocusModeName="FirstChannelOnly" AutofocusChannel="0" AutofocusChannelName="0" OptimalStepSize="5.90733449872408E-07" PositionDimension="122" />
+                <AdditionalZPositionList />
+                <Quantity Value="0" Unit="" />
+                <ZStackUseModeInfo ZStackUseMode="1" StackCalcMode="2" ValidBegin="0" ValidEnd="0" BeginValue="0" EndValue="0" NbSections="1">
+                  <Quantity Value="0" Unit="" />
+                </ZStackUseModeInfo>
+                <WideFieldChannelConfigurator ThisIsHSAutofocusInstance="0" WFCCVersion="1" MicroscopeFamilyType="1" CameraName="K5C-700007798564" CameraType="401" CameraNamePure="K5C" MaxChannelCount="1" CurrentChannelIndex="0" IsSequencerBoard="0" IsSequencerAdvancedBoard="0" IsTriggerCamera="0" eZUseMode="0" eStackFlowMode="2" IsUseSameExposureTime="0" SameExposureTime="0.101278" IsHighSpeedModeActive="0" IsSequencerUseEnabled="0" IsSequencerAdvancedUseEnabled="0" EStageAFCModeForSeqAdv="0" IsSimpleOperation="0" FastFilterWheel1="-1" FastFilterWheel2="-1" FastFilterWheel3="-1" FastFilterWheel4="-1" CanDoTIRF="0" TIRFPenetrationDepthMode="1" SameTIRFPenetrationDepthIndex="0" SameTIRFApertureValue="0" TIRFManualMode="0" IsTIRFFastIlluminationSwitchingActive="0" InTrigger="-1" OutTrigger="-1" InTriggerMode="-1" OutTriggerMode="-1" m_sInTrigger="-1" m_sInTriggerMode="-1" m_sInTriggerShowInGraph="1" m_sInTriggerRecordInEventlist="1" m_sInTriggerDescription="" m_sOutTrigger="-1" m_sOutTriggerMode="-1" m_sOutTriggerShowInGraph="1" m_sOutTriggerRecordInEventlist="1" m_sOutTriggerDescription="" m_sOutTriggerOnStart="-1" m_sOutTriggerOnStartMode="-1" m_sOutTriggerOnStartShowInGraph="1" m_sOutTriggerOnStartRecordInEventlist="1" m_sOutTriggerOnStartDescription="" m_sOutTriggerOnEnd="-1" m_sOutTriggerOnEndMode="-1" m_sOutTriggerOnEndShowInGraph="1" m_sOutTriggerOnEndRecordInEventlist="1" m_sOutTriggerOnEndDescription="" WFCCCameranRoiLeft="0" WFCCCameranRoiTop="0" WFCCCameranRoiWidth="1" WFCCCameranRoiHeight="1" WFCCCameranRoiIsUsed="0" WFCCCameranRoiDefinitionBinning="-1" ILLEDCanDoChangeWavelength="0" ILLEDCanDoCombineWavelengths="1" ILLEDMaxWavelengths="0" ILLEDCanDoCombiLightSource="0" ILLEDUIMode="1" ILLEDCodedSliderPos="3" ExtensionMode="0" GISTAutoExpoControlConfig_IsEnabled="0" GISTAutoExpoControlConfig_MaxRegulatorValue="150" GISTAutoExpoControlConfig_MinRegulatorValue="1" GISTAutoExpoControlConfig_OverexposuredPixelsThreshold="5" CanDoDIC="0" CanDoCondenser="0" CanDoOnlineShadingCorrection="1" OnlineShadingCorrectionDefinitionState="0" OnlineShadingCorrectionActivationState="0" OnlineShadingCorrection="0" ObjectiveArtNo="11556084" ObjectiveName="N PLAN 40 x" bIsDiaphragmStoreModeEnabled="0" bIsDICStoreModeEnabled="0" IsSimAcqActive="0" CanDoStageRotation="0" StageRotationAngle="0" CanDoColumnTilt="0" ColumnTiltAngle="0">
+                  <AdvancedCameraFeatures Advanced_Camera_Features_Activated="1">
+                    <CameraFeature Name="Sharpening" Camera_Feature_400_Value="2.000000" Camera_Feature_400_Enabled="1" Camera_Feature_400_UIEnabled="1" />
+                    <CameraFeature Name="Color temperature" Camera_Feature_100020_Value="5800" Camera_Feature_100020_Enabled="0" Camera_Feature_100020_UIEnabled="1" />
+                  </AdvancedCameraFeatures>
+                </WideFieldChannelConfigurator>
+                <CameraFormat xDim="1824" yDim="1216" Resolution="8" IsGray="0" Binning="3" LiveBinning="2" ColorCaptureMode="0" SimAcqMode="1" />
+              </ATLCameraSettingDefinition>
+            </LDM_Block_Sequential_Master>
+            <LDM_Block_Sequential_List>
+              <ATLCameraSettingDefinition ChannelToXmlMode="2" VersionNumber="7" IsEnabledForSequentialScanning="1" UserManagementUserName="UserManagementFeatureInactive">
+                <WideFieldChannelConfigurator ThisIsHSAutofocusInstance="0">
+                  <WideFieldChannelInfo Channel="2000" FluoCubePos="0" Intensity="0" IntensityMode="-1" ContrastingMethodName="" ContrastingMethod="-1" SpinDiskFilterSetPosition="0" SpinDiskUse="0" FluoChromeName="" UserDefName="New 1" FluoCubeName="" EmissionWavelength="0" DyeName="" LUT="" SpinDiskFilterSetName="unknown" ColorGainValueR="19.248291015625" ColorGainValueG="5.99972098214286" ColorGainValueB="24.2376534598214" WhiteBalanceBaseValueR="19.248291015625" WhiteBalanceBaseValueG="5.99972098214286" WhiteBalanceBaseValueB="24.2376534598214" ColorWheelValueR="255" ColorWheelValueG="255" ColorWheelValueB="255" FFW_Excitation1Position="0" FFW_Excitation2Position="0" FFW_Emission1Position="0" FFW_Emission2Position="0" FFW_Excitation1PositionDev="0" FFW_Excitation2PositionDev="0" FFW_Emission1PositionDev="0" FFW_Emission2PositionDev="0" FFW_Excitation1FilterName="" FFW_Excitation2FilterName="" FFW_Emission1FilterName="" FFW_Emission2FilterName="" FieldDiaphragmValue="-1" ApertureDiaphragmValue="-1" OnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionReferenceParentID="-1" FilteredOnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionDefinitionState="-1" OnlineShadingCorrectionReferenceImageName="" DistortionCorrectionDefinitionState="-1" TIRF_WaveLength="0" TIRF_Azimuth="0" TIRF_PenetrationDepthIndex="0" TIRF_Aperture="0" TIRF_PenetrationDepthFromAperture="0" TIRF_PenetrationDepth="0" TIRF_FastIlluminationSwitchingMode="2" TIRF_LaserIntensity="0" ILLEDMaxUsedChannels="0" ILLEDIsValid="0" TIRFFastIlluminationSwitchingMode="2" AFCApplicable="0" GIST_BackpumpingIntensity="0" GIST_BackpumpingEnabled="0" DICPos="0" DICLensName="" CondenserPos="0" CondenserLensName="unknown" ObliqueMode="0" ObliqueValue="-1">
+                    <IndividualCameraInfoArray>
+                      <IndividualCameraInfo LUT="P.Color 5" ExposureTime="0.101278" Active="1" Gain="1.500366" EMGain="1" GainString="0" StringGainName="" EmissionWavelength="550" FullCameraName="K5C-700007798564" BlackValue="0" WhiteValue="1" GammaValue="1" BackgroundLUT="" />
+                    </IndividualCameraInfoArray>
+                  </WideFieldChannelInfo>
+                  <AdvancedCameraFeatures Advanced_Camera_Features_Activated="1" />
+                </WideFieldChannelConfigurator>
+              </ATLCameraSettingDefinition>
+            </LDM_Block_Sequential_List>
+            <LDM_Block_Sequential_Execution_Mask>
+              <InstrumentSettingMask Shutter="1" Frame_Average="1" Line_Average="1" AOTF="1" Attenuator_Wheel="1" Laser_Gain_Offset="1" PMTs_on_off="1" PMTs_Gain_Offset="1" Timegate="1" HyDs_Acquistion_Mode="1" HyDs_Pulse_Calibr_Value="1" FilterWheel="1" Variable_Beam_Expander="1" Microscope="1" Pinhole="1" Z_Compensation="1" Spectrophotometer="1" Mot_Corr_Ring="0" Frame_Accumulation="1" Line_Accumulation="1" Laser="1" STED_DelayTime="1" />
+            </LDM_Block_Sequential_Execution_Mask>
+          </LDM_Block_Widefield_Sequential>
+        </Attachment>
+      </Image>
+    </Data>
+    <Memory Size="6653952" MemoryBlockID="">
+      <Frame File="..%5Clz01b_fi_g2_40x.tif" Offset="0" Size="6653952" UUID="5cece40b-c88c-4858-810d-33eec6b08513" />
+    </Memory>
+    <Children />
+  </Element>
+</LMSDataContainerHeader>
