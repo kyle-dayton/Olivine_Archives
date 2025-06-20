@@ -1,1 +1,2 @@
-
+# This folder contains the Python notebook, modified from the examples ex_degassing.ipynb located on the ENKI server from Iacovino et al., 2021, 
+used for open and closed system degassing models used within this work. An example input spreadsheet is also located within this folder.
