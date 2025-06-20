@@ -1,2 +1,2 @@
-# This folder contains an example notebook and the code used to locate the pressure of increased curvature, resulting from increased XH2O degassing, used within this work. 
+# This folder contains an example notebook and the code used to locate the pressure of increased curvature (2nd derivative), resulting from increased XH2O degassing, used within this work. 
 This code also identifies the point of the first fluid exsolution (model start point from VESIcal degassing models).
